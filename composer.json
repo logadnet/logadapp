@@ -1,0 +1,23 @@
+{
+    "name": "logadnet/logadapp",
+    "description": "A private package for logadApp",
+    "authors": [
+        {
+            "name": "Michael Arawole",
+            "email": "michael@logad.net"
+        }
+    ],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0",
+        "rakit/validation": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "logadnet\\logadapp\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
